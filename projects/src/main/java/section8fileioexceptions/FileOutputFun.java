@@ -6,9 +6,10 @@ import java.io.PrintWriter;
 
 public class FileOutputFun {
     public static void main(String[] args) {
-        // Write to user's home directory instead of resources
-        String userHome = System.getProperty("user.home");
-        File outputFile = new File(userHome, "output.txt");
+        final String FILE_IO_RESOURCE_FOLDER =
+                "projects/src/main/resources/section8fileioexceptions";
+        File outputFile = new File(FILE_IO_RESOURCE_FOLDER,
+                "output.txt");
 
         try (PrintWriter pw = new PrintWriter(outputFile)) {
             pw.println("Hello there");

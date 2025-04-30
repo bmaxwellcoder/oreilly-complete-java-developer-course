@@ -34,9 +34,10 @@ public class TwiceData {
                 return;
             }
 
-            // Write to user's home directory
-            String userHome = System.getProperty("user.home");
-            File outputFile = new File(userHome, "twice_nums.txt");
+            final String FILE_IO_RESOURCE_FOLDER =
+                    "projects/src/main/resources/section8fileioexceptions";
+            File outputFile = new File(FILE_IO_RESOURCE_FOLDER,
+                    "twice_nums.txt");
 
             try (Scanner inFile = new Scanner(inputStream);
                     PrintWriter pw = new PrintWriter(outputFile)) {

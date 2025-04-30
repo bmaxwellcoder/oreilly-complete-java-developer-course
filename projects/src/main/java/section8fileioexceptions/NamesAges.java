@@ -45,9 +45,10 @@ public class NamesAges {
                 return;
             }
 
-            // Write to user's home directory
-            String userHome = System.getProperty("user.home");
-            File outputFile = new File(userHome, "names_ages.txt");
+            final String FILE_IO_RESOURCE_FOLDER =
+                    "projects/src/main/resources/section8fileioexceptions";
+            File outputFile = new File(FILE_IO_RESOURCE_FOLDER,
+                    "names_ages.txt");
 
             try (Scanner namesScanner = new Scanner(namesStream);
                     Scanner agesScanner = new Scanner(agesStream);

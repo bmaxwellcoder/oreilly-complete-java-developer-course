@@ -24,9 +24,9 @@ public class WriteNames {
         namesList.add("Oscar");
         namesList.add("Estella");
 
-        // Write to user's home directory instead of resources
-        String userHome = System.getProperty("user.home");
-        File outputFile = new File(userHome, "names.txt");
+        final String FILE_IO_RESOURCE_FOLDER =
+                "projects/src/main/resources/section8fileioexceptions";
+        File outputFile = new File(FILE_IO_RESOURCE_FOLDER, "names.txt");
 
         try (PrintWriter pw = new PrintWriter(outputFile)) {
             for (String name : namesList) {

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section2-Java_Intro/Section2-Java_Intro.iml" filepath="$PROJECT_DIR$/Projects/Section2-Java_Intro/Section2-Java_Intro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section3-Control_Statements/Section3-Control_Statements.iml" filepath="$PROJECT_DIR$/Projects/Section3-Control_Statements/Section3-Control_Statements.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section4-Arrays_ArrayLists/Section4-Arrays_ArrayLists.iml" filepath="$PROJECT_DIR$/Projects/Section4-Arrays_ArrayLists/Section4-Arrays_ArrayLists.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section5-Strings_StringBuilderClass/Section5-Strings_StringBuilderClass.iml" filepath="$PROJECT_DIR$/Projects/Section5-Strings_StringBuilderClass/Section5-Strings_StringBuilderClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section6-Methods/Section6-Methods.iml" filepath="$PROJECT_DIR$/Projects/Section6-Methods/Section6-Methods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section7-Classes_Objects_Intro/Section7-Classes_Objects_Intro.iml" filepath="$PROJECT_DIR$/Projects/Section7-Classes_Objects_Intro/Section7-Classes_Objects_Intro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section8-File_IO_Exceptions/Section8-File_IO_Exceptions.iml" filepath="$PROJECT_DIR$/Projects/Section8-File_IO_Exceptions/Section8-File_IO_Exceptions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Projects/Section9-MoreOOP/Section9-MoreOOP.iml" filepath="$PROJECT_DIR$/Projects/Section9-MoreOOP/Section9-MoreOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section2-Java_Intro/Section2-Java_Intro.iml" filepath="$PROJECT_DIR$/projects/Section2-Java_Intro/Section2-Java_Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section3-Control_Statements/Section3-Control_Statements.iml" filepath="$PROJECT_DIR$/projects/Section3-Control_Statements/Section3-Control_Statements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section4-Arrays_ArrayLists/Section4-Arrays_ArrayLists.iml" filepath="$PROJECT_DIR$/projects/Section4-Arrays_ArrayLists/Section4-Arrays_ArrayLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section5-Strings_StringBuilderClass/Section5-Strings_StringBuilderClass.iml" filepath="$PROJECT_DIR$/projects/Section5-Strings_StringBuilderClass/Section5-Strings_StringBuilderClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section6-Methods/Section6-Methods.iml" filepath="$PROJECT_DIR$/projects/Section6-Methods/Section6-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section7-Classes_Objects_Intro/Section7-Classes_Objects_Intro.iml" filepath="$PROJECT_DIR$/projects/Section7-Classes_Objects_Intro/Section7-Classes_Objects_Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section8-File_IO_Exceptions/Section8-File_IO_Exceptions.iml" filepath="$PROJECT_DIR$/projects/Section8-File_IO_Exceptions/Section8-File_IO_Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/Section9-MoreOOP/Section9-MoreOOP.iml" filepath="$PROJECT_DIR$/projects/Section9-MoreOOP/Section9-MoreOOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-course.iml" filepath="$PROJECT_DIR$/java-course.iml" />
     </modules>
   </component>

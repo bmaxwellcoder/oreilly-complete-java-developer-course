@@ -66,9 +66,10 @@ public class Proj8_2_CircleFile {
      * @param circleList the list of Circle objects to write
      */
     public static void writeCirclesToFile(ArrayList<Circle> circleList) {
-        // Write to user's home directory
-        String userHome = System.getProperty("user.home");
-        File outputFile = new File(userHome, "circle_output.txt");
+        final String FILE_IO_RESOURCE_FOLDER =
+                "projects/src/main/resources/section8fileioexceptions";
+        File outputFile = new File(FILE_IO_RESOURCE_FOLDER,
+                "circle_output.txt");
 
         try (BufferedWriter writeFile = new BufferedWriter(
                 new FileWriter(outputFile))) {
