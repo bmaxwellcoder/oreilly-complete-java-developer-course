@@ -3,7 +3,6 @@
 ## Course Overview
 Please NOTE: While titled as a complete course from beginner to master, this course primarily focuses on establishing strong foundational programming concepts in Java. It's ideally suited for beginners who want to learn Java programming from the ground up. The course provides a comprehensive introduction to Java, covering essential programming concepts and gradually building up to more advanced topics. With Java being one of the most popular programming languages worldwide (used by over 7.6 million developers), this course provides the essential skills needed to start a career in software development.
 
-
 ## What You Will Learn
 1. **Java Fundamentals**
    - Write your first Java program
@@ -116,17 +115,17 @@ To begin your Java journey:
 ### Java Compilation and Execution Guide
 
 #### Single File Programs
-
+```bash
 # Compile and run in one step (Java 11+)
 java HelloWorld.java
 
 # Traditional two-step approach
 javac HelloWorld.java    # Compile
 java HelloWorld          # Run
-
+```
 
 #### Programs with Packages
-
+```bash
 # If your class is in a package (e.g., package org.example;)
 # Make sure you're in the correct directory structure:
 # src/main/java/org/example/HelloWorld.java
@@ -137,7 +136,7 @@ java org.example.HelloWorld
 # Using Maven (recommended for projects)
 mvn compile
 mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
-
+```
 
 #### Important Notes
 - Package names must match directory structure
@@ -151,6 +150,5 @@ mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
 - Comprehensive coverage of Java concepts
 - Real-world application examples
 - Progressive difficulty curve
-
 
 *Note: This course is available on the O'Reilly learning platform with a 10-day free trial.* 
