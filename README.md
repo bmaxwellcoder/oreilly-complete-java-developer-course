@@ -126,16 +126,28 @@ java HelloWorld          # Run
 
 #### Programs with Packages
 ```bash
-# If your class is in a package (e.g., package org.example;)
-# Make sure you're in the correct directory structure:
-# src/main/java/org/example/HelloWorld.java
+# Create output directory for compiled classes
+mkdir out
 
-# Using fully qualified name
-java org.example.HelloWorld
+# Compile with package structure (-d flag creates necessary directories)
+javac -d out src/main/java/packagename/*.java
 
-# Using Maven (recommended for projects)
-mvn compile
-mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
+# Run using fully qualified class name
+java -cp out packagename.ClassName
+
+# Example:
+javac -d out src/main/java/section9moreoop/*.java
+java -cp out section9moreoop.AnimalDemo
+```
+
+#### Setting up CLASSPATH (Optional)
+To run programs from any directory using just the fully qualified class name:
+```bash
+# Add to your shell profile (.zshrc, .bash_profile, etc.)
+export CLASSPATH=/path/to/your/project/out:$CLASSPATH
+
+# After setting CLASSPATH, you can run directly
+java section9moreoop.AnimalDemo
 ```
 
 #### Important Notes
@@ -143,6 +155,8 @@ mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
 - Class names are case-sensitive
 - Always include the `.java` extension when compiling
 - Never include the `.class` extension when running
+- The `-cp` flag sets the classpath for finding compiled classes
+- When using packages, always use the fully qualified class name (e.g., `section9moreoop.AnimalDemo`)
 
 ## Course Features
 - Hands-on coding challenges in every lecture
